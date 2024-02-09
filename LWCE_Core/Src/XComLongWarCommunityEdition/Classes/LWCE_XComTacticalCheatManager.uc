@@ -499,3 +499,13 @@ function int FindPerkByName(string strName)
 
     return -1;
 }
+{
+    
+    local LWCE_XGUnit kUnit;
+    kUnit = LWCE_XGUnit(Outer.GetActiveUnit());
+    kUnit.GivePerk(21);
+    GetConsole().OutputTextLine("Gave selected unit suppression");
+    
+
+    
+}
